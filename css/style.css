@@ -304,12 +304,12 @@ p {
 	padding-top: 72px;
 }
 .top_left_cont {
-	padding: 110px 0;
+	padding: 150px 0;
 	text-align: center;
 }
 .top_left_cont h2 {
 	font-size: 20px;
-	color: #FFF;
+	color: rosybrown;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	line-height: 60px;
@@ -318,7 +318,7 @@ p {
 .top_left_cont h2 strong {
 	font-size: 70px;
 	font-weight: 700;
-	color: rosybrown;
+	color: #fff;
 	letter-spacing: 4px;
 }
 a:focus {
@@ -740,7 +740,10 @@ img {
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
-.education-container h2, h3 {
+.education-container h2 {
+	color: white;
+}
+.education-container h3 {
 	color: white;
 }
 .education-container .points:before, h4{
