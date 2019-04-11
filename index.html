@@ -28,7 +28,7 @@
 							<br/><br/>
 							<div class='btn-cont'>
 								<a href="mailto:sarahyun7@gmail.com" class="main-btn"><i class="fa fa-paper-plane"></i> GET IN TOUCH</a>
-								<a href="https://drive.google.com/open?id=15R9dIc053l3TEmcYT9adyLmo4ftWakwz" target='_blank' rel='noopener noreferrer' class="main-btn"><i class="fa fa-eye"></i> VIEW RESUME</a> 
+								<a href="https://drive.google.com/open?id=1BJiB0YdS-MTDGBJiPpkz8ONtY0P2b-ku" target='_blank' rel='noopener noreferrer' class="main-btn"><i class="fa fa-eye"></i> VIEW RESUME</a> 
 							</div>
 						</div>	
           </div> 
@@ -56,7 +56,6 @@
 				<li><a href="#Portfolio" class="scroll-link">Projects</a></li>
 				<li><a href="#education" class="scroll-link">Education</a></li>
 			  <li><a href="#clients" class="scroll-link">Experience</a></li>
-			  <li><a href="#team" class="scroll-link">Testimonial</a></li>
 			  <li><a href="#contact" class="scroll-link">Contact</a></li>
 			</ul>
       </div>
@@ -209,21 +208,21 @@
         <li><a id="all" href="#" data-filter="*" class="active">
           <h5>All</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".prototype">
-          <h5>Ruby</h5>
+        <li><a class="" href="#" data-filter=".rubyrails">
+          <h5>Ruby/Rails</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".design">
-          <h5>Rails</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".android">
+        <li><a class="" href="#" data-filter=".javascript">
           <h5>JavaScript</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".appleIOS">
+        <li><a class="" href="#" data-filter=".react">
           <h5>React</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".web">
+        <li><a class="" href="#" data-filter=".redux">
           <h5>Redux</h5>
-          </a></li>
+					</a></li>
+				<li><a class="" href="#" data-filter=".c">
+          <h5>C++</h5>
+				</a></li>
       </ul>
     </div>
     
@@ -252,64 +251,72 @@
     <!--/Portfolio Filters --> 
     
     <!-- Portfolio Wrapper -->
-		<div class="isotope fadeInLeft animated wow grid delay-04s" style="position: relative; overflow: hidden; height: 500px;" id="portfolio_wrapper">  
+		<div class="isotope fadeInLeft animated wow grid delay-04s" style="position: relative; height: 500px;" id="portfolio_wrapper">  
 			
       <!-- Wavelength -->
-      <figure style="position: relative; left: 0px; top: 0px; width: 100%; opacity: 1;" class="portfolio-item one-four appleIOS isotope-item effect-oscar">
+			<figure style="position: relative; width: 100%; margin: 0; opacity: 1;" class="portfolio-item one-four rubyrails javascript react redux isotope-item effect-oscar">
 	   
 				<div class="portfolio_img"> 
-					<img src="img/wavelength/wl1.png"  alt="Portfolio 1"> </div>
-					<figcaption>
+					<img src="img/wavelength/wl1.png" alt="Portfolio 1"> </div>
+					<figcaption data-toggle="modal" data-target="#wlModal">
 						<div>
-							<a href="img/portfolio_pic1.jpg" class="fancybox"> 
-								<h2 class='project_name'><span>Get on my wavelength</span></h2>
-							</a>
+							<h2 class='project_name'><span>Get on my wavelength</span></h2>
+							<p>Explore new music, movies, shows, podcasts, books, & games</p>
+							<h6>Click for more information</h6>
 						</div>
 					</figcaption>
 				</figure>
-				<!--/Wavelength --> 
-      
+				<!--/Wavelength -->      
       <!-- Pursuit -->
-      <figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+      <figure style="position: relative; margin: 0; width: 100%; opacity: 1;" class="portfolio-item one-four rubyrails javascript react isotope-item effect-oscar">
 				<div class="portfolio_img"> <img src="img/pursuit/p1.png" alt="Portfolio 1"> </div>
-				<figcaption>		
+				<figcaption data-toggle="modal" data-target="#pokeModal">		
 					<div>
-				  	<a href="img/portfolio_pic2.jpg" class="fancybox"> 
-							<h2 class='project_name'><span>The Pursuit of Pokéness</span></h2>
-							<!-- <p>Oscar is a decent man. He used to clean porches with pleasure.</p> -->
-				  	</a>
+						<h2 class='project_name'><span>The Pursuit of Pokéness</span></h2>
+						<p>Catch over 450 types of Pokémon from 4 different regions</p>
+						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
 			</figure>
       <!--/Pursuit --> 
       
       <!-- Monster -->
-      <figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four  design  isotope-item effect-oscar">
+      <figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four rubyrails isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/monster/m1.png" alt="Portfolio 1"> </div>
-      	<figcaption>		
+      	<figcaption data-toggle="modal" data-target="#monsterModal">		
 					<div>
-				  	<a href="img/portfolio_pic3.jpg" class="fancybox"> 
-							<h2 class='project_name'><span>Build-a-monster</span></h2>
-							<!-- <p>Oscar is a decent man. He used to clean porches with pleasure.</p> -->
-				  	</a>
+						<h2 class='project_name'><span>Build-a-monster</span></h2>
+						<p>Channel your inner Frankenstein! Create monsters from different parts & view their stats.</p>
+						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
 			</figure>
       <!--/Monster--> 
       
       <!-- Arduino-->
-      <figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item effect-oscar">
+      <figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four c isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/arduino/a1.png" alt="Portfolio 1"> </div>
-        <figcaption>		
+        <figcaption data-toggle="modal" data-target="#arduinoModal">		
 					<div>
-				  	<a href="img/portfolio_pic4.jpg" class="fancybox"> 
-							<h2 class='project_name'><span>Fashion Technology x LilyPad Arduino</span></h2>
-							<!-- <p>Oscar is a decent man. He used to clean porches with pleasure.</p> -->
-				  	</a>
+						<h2 class='project_name'><span>Fashion Tech x LilyPad Arduino</span></h2>
+						<p>Flatiron Presentation. Built with LilyPad Arduino, coded in C++.</p>
+						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
       </figure>
-      <!-- Arduino --> 
+			<!-- Arduino --> 
+			
+			<!-- Event -->
+			<figure style="position: relative; width: 100%; opacity: 1;" class="portfolio-item one-four c isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/arduino/a1.png" alt="Portfolio 1"> </div>
+        <figcaption data-toggle="modal" data-target="#arduinoModal">		
+					<div>
+						<h2 class='project_name'><span>Fashion Tech x LilyPad Arduino</span></h2>
+						<p>Flatiron Presentation. Built with LilyPad Arduino, coded in C++.</p>
+						<h6>Click for more information</h6>
+					</div>
+				</figcaption>
+      </figure>
     </div>
     <!--/Portfolio Wrapper --> 
     
@@ -328,8 +335,155 @@
 </section>
 <!--/Portfolio --> 
 
+<!-- Modals --> 
+<div class="modal fade" id="wlModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h2 class="modal-title" id="exampleModalLongTitle">GET ON MY WAVELENGTH</h2>
+				<br/>
+			</div>
+			
+      <div class="modal-body">
+				<h3>DEMO</h3>
+					<a href='https://getonmywavelength.herokuapp.com/' target='_blank' rel='noopener noreferrer'>VIEW LIVE APP</a>
+					<h6>test username: hello // test password: world</h6>
+					<br/>
+
+				<h3>DESCRIPTION</h3>
+					<h6>Frontend: React, Redux // Backend: Ruby on Rails</h6>
+					<p>- Integrated JWT library to securely authenticate and authorize user login with encryption</p>
+					<p>- Created a responsive search engine with filter functionality using dynamic fetch requests to TasteDive API</p>
+					<p>- Rendered information on given results including an embedded YouTube video and Wikipedia summary</p>
+					<p>- Programmed a live 'trending' feature that actively responds to the number of times a search has been added to any user's wavelength</p>
+					<br/>
+
+				<h3>IMAGES</h3>
+					<img src='img/wavelength/wl1.png'/>
+					<img src='img/wavelength/wl2.png'/>
+					<img src='img/wavelength/wl3.png'/>
+					<img src='img/wavelength/wl4.png'/>
+					<img src='img/wavelength/wl5.png'/>
+					<img src='img/wavelength/wl6.png'/>
+			</div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pokeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2 class="modal-title" id="exampleModalLongTitle">THE PURSUIT OF POKÉNESS</h2>
+				<br/>
+			</div>
+
+			<div class="modal-body">
+				<h3>DEMO</h3>
+					<a href='https://pursuit-of-pokeness.herokuapp.com/' target='_blank' rel='noopener noreferrer'>VIEW LIVE APP</a>
+					<h6>test username: hello // test password: world</h6>
+					<br/>
+
+				<h3>DESCRIPTION</h3>
+					<h6>Frontend: React || Backend: Ruby on Rails</h6>
+					<p>- Wrote custom algorithms to randomly generate wild Pokémon on map and determine fate (catch success or fail)</p>
+					<p>- Accessed information from PokéAPI through backend fetches to showcase data such as region, type and HP</p>
+					<p>- Persisted user's caught Pokémon in database using Ruby on Rails and PostgreSQL</p>
+					<p>- Designed a game-like interface with Semantic UI React and custom CSS animation</p>
+					<br/>
+
+				<h3>IMAGES</h3>
+					<img src='img/pursuit/p1.png' />
+					<img src='img/pursuit/p2.png'/>
+					<img src='img/pursuit/p3.png'/>
+					<img src='img/pursuit/p4.png'/>
+					<img src='img/pursuit/p5.png'/>
+					<img src='img/pursuit/p6.png'/>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="modal fade" id="monsterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="exampleModalLongTitle">BUILD-A-MONSTER</h2>
+					<br/>
+				</div>
+
+				<div class="modal-body">
+					<!-- <h3>DEMO</h3>
+						<a href='https://pursuit-of-pokeness.herokuapp.com/' target='_blank' rel='noopener noreferrer'>VIEW LIVE APP</a>
+						<h6>test username: hello // test password: world</h6>
+						<br/> -->
+	
+					<h3>DESCRIPTION</h3>
+						<h6>Frontend & Backend: Ruby on Rails</h6>
+						<p>- Applied RESTful conventions and full CRUD operations with models, views, and controllers</p>
+						<p>- Utilized Ruby's ERB templating system to render pages with variable substitution and flow control</p>
+						<p>- Designed a clean, user-friendly, and responsive app with Bootstrap</p>
+						<p>- Incorporated Active Record validations to ensure an error-free process of monster creation</p>
+						<p>- Formulated algorithms to seed database using Faker library for names and random body part assignments </p>
+						<br/>
+	
+					<h3>IMAGES</h3>
+						<img src='img/monster/m1.png' />
+						<img src='img/monster/m2.png'/>
+						<img src='img/monster/m3.png'/>
+						<img src='img/monster/m4.png'/>
+						<img src='img/monster/m5.png'/>
+						<img src='img/monster/m6.png'/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="arduinoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2 class="modal-title" id="exampleModalLongTitle">FASHION TECHNOLOGY X LILYPAD ARDUINO</h2>
+				<br/>
+			</div>
+
+			<div class="modal-body">
+				<h3>DEMO</h3>
+					<a href='https://github.com/vprema94/fsp-fashion-technology' target='_blank' rel='noopener noreferrer'>VIEW CODE</a><br/>					
+					<a href='https://docs.google.com/presentation/d/1XX-f-XYMjXIvxuaGzn8t1x9hjhWr4cFVHPjwtwWChgU/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>VIEW PRESENTATION SLIDES</a><br/>
+					
+					<img src='https://media.giphy.com/media/h5Fo0G4rogw8O39o4W/giphy-downsized-large.gif'/>
+					<br/>
+
+				<h3>DESCRIPTION</h3>
+					<h6>Coded in Arduino Language (C++)</h6>
+					<p>- Prepared demonstration for Flatiron Students Present, an event where students research and present on a technical topic of choice unrelated to course curriculum</p>
+					<p>- Used conductive thread to sew LilyPad arduino & LED lights onto fabric</p>
+					<p>- Learned basics of C++ in Arduino Language to configure code for blinking light patterns</p>
+					<br/>
+
+				<h3>IMAGES</h3>
+				<img src='img/arduino/a1.png' />
+				<h6>Presentation</h6>
+				<img src='img/arduino/a6.png' />
+				<img src='img/arduino/a5.png'/>
+				<img src='img/arduino/a7.png'/>
+				<img src='img/arduino/a8.png'/>
+				<img src='img/arduino/a9.png'/>
+			
+				<h6>Sample Code</h6>
+					<img src='img/arduino/a2.png'/>
+					<img src='img/arduino/a3.png'/>
+					<img src='img/arduino/a4.png'/>
+
+				</div>
+		</div>
+	</div>
+</div>
+<!-- /Modals -->
+
 <section id="education"><!--Education-->
-	<div class="inner_wrapper aboutUs-container fadeInLeft animated wow delay-04s">
+	<div class="inner_wrapper education-container fadeInDown animated wow delay-04s">
 		<div class="container">
 			<h2>EDUCATION</h2>
 			<div class="inner_section"> 
@@ -337,39 +491,32 @@
 					<div class="col-lg-12 about-us">
 						<div class="row">
 							<div class="col-md-6">
-								<!-- <img class="img-responsive" src="img/me/1.jpg">  -->
-								<h3>FLATIRON SCHOOL IMMERSIVE PROGRAM</h3>
+								<h3>FLATIRON SCHOOL</h3>
+								<h4>WEB DEVELOPMENT IMMERSIVE PROGRAM</h4>
+								<h6>2018 - 2019</h6>
 								<ul class='about-us-list'>
 									<li class='points'>Dedicated 600+ hours to learning, writing, and loving code</li>
 									<li class='points'>Created 5 fully functional projects using Ruby, Rails, JavaScript, React, and Redux</li>
 									<li class='points'>Collaborated with classmates to apply learned concepts through group and paired-programming labs</li>
-
-									<li class='points'>Created 5 fully functional projects using Ruby, Rails, JavaScript, React, and Redux</li>
-
-									<li class='points'>Collaborated with classmates to apply learned concepts through group and paired-programming labs</li>
 								</ul>
 							</div>
-								<div class="col-md-6">
-									<h3>I Build Things</h3>
-									
-
-				
-									<h3>What I Love</h3>
-									<ul class="about-us-list">
-										<li class="points">Learning new languages & frameworks through hands-on experiences</li>
-										<li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci gravida </li>
-										<li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">My cats! Mocha, Hazelnut, & Cappucino (=^･ｪ･^=)</li>
-									</ul><!-- /.about-us-list -->
-								</div><!-- /.col-md-6 -->
-							</div><!-- /.row -->	
-						</div><!-- /.col-lg-12 -->
-					</div>
+							<div class="col-md-6">
+								<h3>THE UNIVERSITY OF GEORGIA</h3>
+								<h4>B.S., PSYCHOLOGY & HUMAN DEVELOPOMENT</h4>
+								<h6>2013 - 2017</h6>
+								<ul class="about-us-list">
+									<li class="points">Graduated with a major GPA of 3.78 on the Dean's List</li>
+									<li class="points">Gained a strong understanding of ____</li>
+									<li class="points">Actively participated in extra-curricular activities such as Extra Special People (program for children with developmental disabilities) and Sigma Alpha Lambda (National Leadership & Honors Organization) </li>
+								</ul><!-- /.about-us-list -->
+							</div><!-- /.col-md-6 -->
+						</div><!-- /.row -->	
+					</div><!-- /.col-lg-12 -->
 				</div>
-			</div> 
-		</div>
-	</section>
+			</div>
+		</div> 
+	</div>
+</section>
 	<!--Education--> 
 
 <section class="page_section" id="clients"><!--page_section-->
@@ -386,87 +533,40 @@
   </div>
 </div>
 </section>
-<!--client_logos-->
 
-<section class="page_section team" id="team"><!--main-section team-start-->
-  <div class="container">
-    <h2>Testimonial</h2>
-    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
-	  	
-		<div id="team" name="team">
-  <div class="container">
-    <div class="row centered">
-      
-      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team01.jpg" height="120px" width="120px" alt="">
-        <div class="rt-box"><h4><strong>Rosy Illue</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
-		</div>
-       </div>
-         <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team02.jpg" height="120px" width="120px" alt="">
-        <div class="rt-box"><h4><strong>Nissy Yukjk</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
-		</div>
-       </div>
-	      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team03.jpg" height="120px" width="120px" alt="">
-        <div class="rt-box"><h4><strong>Fsdf Efffl</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
-		</div>
-       </div>
-	      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team04.jpg" height="120px" width="120px" alt="">
-        <div class="rt-box"><h4><strong>Mnin Nulk</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
-		</div>
-       </div>
-   
-    </div>
-  </div>
-  <!-- row --> 
-</div>
-	</div>
-</section>
-<!--/Team-->
 <!--Footer-->
 <footer class="footer_wrapper" id="contact">
   <div class="container">
     <section class="page_section contact" id="contact">
       <div class="contact_section">
-        <h2>Get In Touch</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-     
+				<h2>Contact Me</h2>  
       </div>
       <div class="row">
-        <div class="col-lg-4 wow fadeInLeft">	
-		 <div class="contact_info">
-                            <div class="detail">
-                                <h4>UNIQUE Infoway</h4>
-                                <p>104, Some street, NewYork, USA</p>
-                            </div>
-                            <div class="detail">
-                                <h4>call us</h4>
-                                <p>+1 234 567890</p>
-                            </div>
-                            <div class="detail">
-                                <h4>Email us</h4>
-                                <p>support@sitename.com</p>
-                            </div> 
-                        </div>
-       		  
-			  
-          
           <ul class="social_links">
-            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+            <li class="email animated bounceIn wow delay-02s"><a href="mailto:sarahyun7@gmail.com"><i class="fa fa-envelope"></i></a></li>
+						<li class="phone animated bounceIn wow delay-03s"><a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-phone"></i></a></li>
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-body">
+											Reach me at (678) 717-7067
+										</div>
+									</div>
+								</div>
+							</div>
+
+            <li class="linkedin animated bounceIn wow delay-04s"><a href='https://www.linkedin.com/in/sarah-yun-07/' target='_blank' rel='noopener noreferrer'><i class="fa fa-linkedin"></i></a></li>
+            <li class="github animated bounceIn wow delay-05s"><a href='https://github.com/syun07' target='_blank' rel='noopener noreferrer'><i class="fa fa-github-alt"></i></a></li> 
           </ul>
         </div>
-        <div class="col-lg-8 wow fadeInLeft delay-06s">
+        <div class="wow fadeInLeft delay-06s">
           <div class="form">
-            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-text" type="text" name="" value="Your Name" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message</textarea>
             <input class="input-btn" type="submit" value="send message">
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </section>

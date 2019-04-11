@@ -138,3 +138,7 @@ document.getElementById('').onclick = function() {
     section.className = 'wow lightSpeedIn';
     this.parentNode.insertBefore(section, this);
 };
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
