@@ -178,17 +178,18 @@ h2 {
 	font-weight: normal;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 8px;
 }
 h3 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	color: #222222;
 	font-size: 18px;
 	margin: 0 0 5px 0;
+	text-transform: uppercase;
 }
 h6 {
-	color: #888888;
+	color: rosybrown;
 	font-family: 'Raleway', sans-serif;
 }
 p {
@@ -287,7 +288,7 @@ p {
 ---------------------------------*/
 
 .top_cont_outer {
-	background: url(../img/back/1.gif);
+	background: url(../img/back/2.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -298,22 +299,22 @@ p {
 	padding-top: 72px;
 }
 .top_left_cont {
-	padding: 150px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 .top_left_cont h2 {
-	font-size: 20px;
-	color: rosybrown;
+	font-size: 18px;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	line-height: 60px;
 	text-transform: none;
 }
 .top_left_cont h2 strong {
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 700;
 	color: #fff;
-	letter-spacing: 4px;
+	letter-spacing: 15px;
 }
 a:focus {
 	text-decoration: none;
@@ -322,11 +323,11 @@ a:focus {
 .main-btn {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 550;
 	background: transparent;
 	border: 1px solid #fff;
 	padding: 12px;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 	margin-right: 20px;
 }
 .main-btn:hover {
@@ -389,12 +390,12 @@ a:focus {
 	text-align: center;
 }
 .service_block h3 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
 	color: #fff;
 	margin: 35px 0 15px; 
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 #service h6{
 	color:#fff;
@@ -693,7 +694,8 @@ img {
 	margin-bottom: 50px;
 }
 .about-us h3{
-	font-size:28px;
+	font-size: 24px;
+	letter-spacing: 5px;
 }
 .points{ 
 	margin-bottom: 10px;
@@ -739,9 +741,9 @@ img {
 .education-container h3 {
 	color: white;
 }
-.education-container .points:before, h4{
+/* .education-container .points:before, h4{
 	color: black;
-}
+} */
 .education-container .col-md-6 {
 	padding: 0px 80px;
 }
@@ -1002,6 +1004,7 @@ img {
 	font-family: 'Raleway', sans-serif;
 	margin: 0 0 15px;
 	text-align: center;
+	letter-spacing: 8px;
 	text-transform: uppercase;
 }
 
@@ -1536,9 +1539,6 @@ margin-bottom:20px;
 #aboutUs h3{
 font-size:26px;
 line-height:22px;
-}
-.service_block h3 { 
-font-size: 16px;
 }
 service_block p {
 font-size: 14px; 
