@@ -603,7 +603,7 @@ img {
 
 
 #clients {
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 .client_area {
@@ -738,7 +738,6 @@ img {
 }
 .education-container {
 	margin-top: 20px;
-	margin-bottom: 40px;
 }
 .education-container h2 {
 	color: white;
@@ -808,7 +807,8 @@ img {
 	color: indianred;
 }
  .form {
-	margin: 50px 20em 0 20em;
+	margin: 50px 12em 0 12em;
+	min-width: 10em;
 	text-align: center;
 }
 .input-text {
@@ -834,8 +834,13 @@ img {
 }
 .input-text.text-area {
 	height: 230px;
-	resize: none;
-	overflow: auto;
+	overflow: scroll;
+}
+.input-text.text-area {
+	vertical-align: text-top;
+}
+.input-text {
+	vertical-align: top;
 }
 .input-btn {    
 	width: 175px;
@@ -1549,9 +1554,6 @@ margin-bottom: 20px;
 #filters ul{
 padding-left:0px;
 }
-.form {
-margin: 0 18px;
-}
 .page_section.team{
 padding: 40px 0;
 }
@@ -1654,6 +1656,11 @@ height: auto;
 }
 .modal-header, .modal-body {
 	text-align: center;
+}
+.modal-body {
+	max-height: 650px;
+	overflow-y: scroll;
+	margin-bottom: 10px;
 }
 .modal-body a:focus {
 	color: purple;
