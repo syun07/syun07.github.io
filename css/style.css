@@ -711,9 +711,15 @@ img {
 .github a:hover {
 	color: indianred;
 }
- .form {
-	margin: 50px 12em 0 12em;
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form {
+	margin: 50px 0;
 	min-width: 10em;
+	width: 45%;
 	text-align: center;
 }
 .input-text {
@@ -1534,11 +1540,12 @@ height: auto;
 
 .card {
 	border: solid 1px black;
-	padding: 15px;
+	padding: 35px;
+	height: 38em;
 }
 .card h3 strong {
 	font-weight: 600;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 }
 .modal-content h3, a {
 	letter-spacing: 2px;
