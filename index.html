@@ -42,15 +42,15 @@
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <div class="logo"><a href="#"><img src="./img/logo/fav.png" alt="logo"></a></div>
+      <div class="logo"><a href="#hero_section" class="scroll-link"><img src="./img/logo/fav.png" alt="logo"></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
+			  <!-- <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li> -->
+			  <li><a href="#aboutUs" class="scroll-link">About</a></li>
 			  <li><a href="#service" class="scroll-link">Skills</a></li>
 				<li><a href="#Portfolio" class="scroll-link">Projects</a></li>
 				<li><a href="#education" class="scroll-link">Education</a></li>
@@ -65,17 +65,17 @@
 <!--Header_section--> 
 
 <section id="aboutUs"><!--Aboutus-->
-<div class="inner_wrapper aboutUs-container fadeInDown animated wow delay-04s">
+<div class="inner_wrapper aboutUs-container">
   <div class="container">
-    <h2>About Me</h2>
+    <h2><strong>About Me</strong></h2>
 	<!-- <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6> -->
     <div class="inner_section"> 
 			<div class="row">
-					<div class="col-lg-12 about-us">
+					<div class="col-lg-12 about-us fadeInDown animated wow delay-04s">
 						<div class="row">
 						<div class="col-md-6"> <img class="img-responsive" src="img/me/1.jpg"> </div><!-- /.col-md-6 -->
 							<div class="col-md-6">
-								<h3>I Build Things</h3>
+								<h3>Overview</h3>
 								<p>
 										Hello! I am a graduate of Flatiron School's immersive program, where I spent 15 weeks cultivating what began as a curiosity for code into a passion for web development and design. During this time, I learned how to operate as an engineer with the discipline to foster self-sufficiency within a collaborative environment. With an emphasis on paired and group programming, I accumulated both the hard and soft skills required to work in a professional setting. Furthermore, my background in Psychology and Marketing prepared me to effectively understand and focus on the end user. I am excited to apply my newfound skills along with my human-centered approach on my new journey!								
 									</p>
@@ -103,7 +103,7 @@
 <!--Service-->
 <section  id="service">
   <div class="container">
-    <h2>Technical Skills</h2>
+    <h2><strong>Technical Skills</strong></h2>
     <div class="service_wrapper">
       <div class="row">
 
@@ -112,7 +112,7 @@
 						<span><i class="devicon-html5-plain-wordmark"></i></span>
 					</div>
           <div class="service_block">  
-            <h3 class="animated fadeInDown wow">HTML5</h3>
+            <h3 class="animated delay-01s fadeInDown wow">HTML5</h3>
           </div>
 				</div>
 				
@@ -121,7 +121,7 @@
 						<span><i class="devicon-css3-plain-wordmark"></i></span>
 					</div> 
 					<div class="service_block">
-            <h3 class="animated fadeInDown wow">CSS3</h3>
+            <h3 class="animated delay-02s fadeInDown wow">CSS3</h3>
           </div>
 				</div>
 				
@@ -130,7 +130,7 @@
 						<span><i class="devicon-ruby-plain-wordmark"></i></span> 
 					</div>
 					<div class="service_block">
-            <h3 class="animated fadeInDown wow">RUBY</h3>
+            <h3 class="animated delay-03s fadeInDown wow">RUBY</h3>
           </div>
 				</div>
 				
@@ -139,7 +139,7 @@
 						<span><i class="devicon-rails-plain-wordmark"></i></span> 
 					</div>
 					<div class="service_block">  
-            <h3 class="animated fadeInDown wow">RAILS</h3>
+            <h3 class="animated delay-04s fadeInDown wow">RAILS</h3>
           </div>
 				</div>
 
@@ -148,7 +148,7 @@
 						<span><i class="devicon-javascript-plain"></i></span>
 					</div>
           <div class="service_block">  
-            <h3 class="animated fadeInDown wow">JAVASCRIPT</h3>
+            <h3 class="animated delay-05s fadeInDown wow">JAVASCRIPT</h3>
           </div>
 				</div>
 
@@ -157,7 +157,7 @@
 						<span><i class="devicon-react-original-wordmark"></i></span>
 					</div>
           <div class="service_block">  
-            <h3 class="animated fadeInDown wow">REACT</h3>
+            <h3 class="animated delay-06s fadeInDown wow">REACT</h3>
           </div>
 				</div>
 
@@ -166,7 +166,7 @@
 						<span><img class='redux' src='./img/redux.png'/></span>
 					</div>
           <div class="service_block">  
-            <h3 class="animated fadeInDown wow">REDUX</h3>
+            <h3 class="animated delay-07s fadeInDown wow">REDUX</h3>
           </div>
 				</div>
 
@@ -175,7 +175,7 @@
 						<span><i class="devicon-bootstrap-plain-wordmark"></i></span>
 					</div>
           <div class="service_block">  
-            <h3 class="animated fadeInDown wow">BOOTSTRAP</h3>
+            <h3 class="animated delay-08s fadeInDown wow">BOOTSTRAP</h3>
           </div>
 				</div>
 				
@@ -193,7 +193,7 @@
     
     <!-- Title -->
     <div class="section-title">
-      <h2>Projects</h2>  
+      <h2><strong>Projects</strong></h2>  
     </div>
     <!--/Title --> 
     
@@ -239,7 +239,6 @@
 						<div>
 							<h2 class='project_name'><span>Get on my wavelength</span></h2>
 							<p>Explore new music, movies, shows, podcasts, books, & games</p>
-							<h6>Click for more information</h6>
 						</div>
 					</figcaption>
 				</figure>
@@ -251,7 +250,6 @@
 					<div>
 						<h2 class='project_name'><span>The Pursuit of Pokéness</span></h2>
 						<p>Catch over 450 types of Pokémon from 4 different regions</p>
-						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
 			</figure>
@@ -264,7 +262,6 @@
 					<div>
 						<h2 class='project_name'><span>Build-a-monster</span></h2>
 						<p>Channel your inner Frankenstein! Create monsters from different parts & view their stats.</p>
-						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
 			</figure>
@@ -277,7 +274,6 @@
 					<div>
 						<h2 class='project_name'><span>Fashion Tech x LilyPad Arduino</span></h2>
 						<p>Flatiron Presentation. Built with LilyPad Arduino, coded in C++.</p>
-						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
       </figure>
@@ -290,7 +286,6 @@
 					<div>
 						<h2 class='project_name'><span>Event Finder</span></h2>
 						<p>View upcoming events add them to your favorites! See event venue, city, date & ticket price.</p>
-						<h6>Click for more information</h6>
 					</div>
 				</figcaption>
       </figure>
@@ -475,15 +470,15 @@
 <!-- /Modals -->
 
 <section id="education"><!--Education-->
-	<div class="inner_wrapper education-container fadeInDown animated wow delay-04s">
+	<div class="inner_wrapper education-container">
 		<div class="container">
-			<h2>EDUCATION</h2>
+			<h2><strong>EDUCATION</strong></h2>
 			<div class="inner_section"> 
 				<div class="row">
 					<div class="col-lg-12 about-us">
 						<div class="row">
-							<div class="col-md-6">
-								<h3>FLATIRON SCHOOL</h3>
+							<div class="col-md-6 fadeInDown animated wow delay-03s">
+								<h3><strong>FLATIRON SCHOOL</strong></h3>
 								<h4>WEB DEVELOPMENT IMMERSIVE PROGRAM</h4>
 								<h6>2018 - 2019</h6>
 								<ul class='about-us-list'>
@@ -492,8 +487,8 @@
 									<li class='points'>Collaborated with classmates to apply learned concepts through group and paired-programming labs</li>
 								</ul>
 							</div>
-							<div class="col-md-6">
-								<h3>THE UNIVERSITY OF GEORGIA</h3>
+							<div class="col-md-6 fadeInDown animated wow delay-03s">
+								<h3><strong>THE UNIVERSITY OF GEORGIA</strong></h3>
 								<h4>B.S., PSYCHOLOGY & HUMAN DEVELOPOMENT</h4>
 								<h6>2013 - 2017</h6>
 								<ul class="about-us-list">
@@ -512,18 +507,57 @@
 	<!--Education--> 
 
 <section class="page_section" id="clients"><!--page_section-->
-  <h2>Worked For</h2>
-<!--page_section-->
-<!-- <div class="client_logos">
-  <div class="container">
-    <ul class="fadeInRight animated wow">
-      <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
-    </ul>
-  </div>
-</div> -->
+	<h2><strong>Professional Experience</strong></h2>
+	<div class="inner_wrapper exp-container fadeInDown animated wow delay-04s">
+
+		<div class="container">
+			<div class="inner_section"> 
+				<div class="row">
+					<div class="col-lg-12 about-us">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card delay-01s animated wow zoomIn">
+									<div class="card-body">
+										<h3 class="card-title"><strong>MARKETING ANALYST</strong></h3>
+										<h4>NOA Bank</h4>
+										<h6>2017 - 2018</h6>
+										<p class='points'>Promoted company and increased customer awareness by researching and planning for conventions, conferences, and networking opportunities to showcase loan products</p>
+										<p class='points'>Collaborated with numerous vendors to conceptualize and create advertisement materials such as banners, flyers, presentations, pamphlets, etc. targeted toward specific audiences</p>
+										<p class='points'>Facilitated bidding of loans with merchants through comprehensive analysis & research of loans, detailed spreadsheets, and form package preparation</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card delay-03s animated wow zoomIn">
+									<div class="card-body">
+										<h3 class="card-title"><strong>INTAKE COORDINATOR</strong></h3>
+										<h4>Samaritan Center for Counseling and Wellness</h4>
+										<h6>2015 - 2017</h6>
+										<p class='points'>Served a diverse population of therapy seekers including individuals with depression, anxiety, trauma, grief, etc. while adhering to HIPAA Compliance procedures</p>
+										<p class='points'>Assessed basic mental health status & background of new patients and assisted with intake processes</p>
+										<p class='points'>Enhanced quality of care by pairing clients with one of 12 licensed therapists based on their areas of emphasis, personality compatibilities, schedules, and insurance policies</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card delay-05s animated wow zoomIn">
+									<div class="card-body">
+										<h3 class="card-title"><strong>ENGLISH TEACHER</strong></h3>
+										<h4>Bridge To America</h4>
+										<h6>Summer 2015</h6>
+										<p class='points'>Traveled to Korea to serve as an English instructor for a class of 6-8 year-old students</p>
+										<p class='points'>Designed and implemented daily & weekly lesson plans that encouraged students to learn English in an engaging, informative, and interactive manner</p>
+										<p class='points'>Provided one-on-one attention to individual students as well as overall focus on the entire class</p>
+										<p class='points'>Received the Presidential Volunteer Service Award for completing over 200 hours of volunteer service</p>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->	
+					</div><!-- /.col-lg-12 -->
+				</div>
+			</div>
+		</div> 
+		</div>
 </section>
 
 <!--Footer-->
@@ -531,7 +565,7 @@
   <div class="container">
     <section class="page_section contact" id="contact">
       <div class="contact_section">
-				<h2>Contact Me</h2>  
+				<h2><strong>Contact Me</strong></h2>  
       </div>
       <div class="row">
           <ul class="social_links">
