@@ -180,7 +180,7 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	margin-top: 40px;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 h3 {
 	font-family: 'Open Sans', sans-serif;
@@ -217,6 +217,7 @@ p {
 	height: auto;
 	position: relative;
 	z-index: 2;
+	margin-left: 20px;
 }
 .res-nav_click {
 	display: none;
@@ -614,8 +615,8 @@ img {
 	padding-left:0px;
 }
 .about-us p{
-	line-height: 20px;
-	padding: 15px 0;
+	line-height: 35px;
+	padding: 15px 45px 0px 0px;
 }
 .about-us .about-us-list{
 	margin-top: 20px;
@@ -624,7 +625,7 @@ img {
 }
 .about-us .points{
 	position: relative;
-	padding: 5px 0 5px 30px;
+	padding: 5px 0 5px 22px;
 }
 .about-us .points:before{
 	content: "\f058";
@@ -648,20 +649,22 @@ img {
 .education-container h2 {
 	color: white;
 }
-.education-container h3 {
-	color: white;
-}
 .education-container .col-md-6 {
 	padding: 0px 60px;
 }
 #education .card {
 	border: solid 1px white;
-	padding: 30px 50px;
-	height: 28em;
+	padding: 30px 35px;
+	height: 27em;
+	overflow-y: scroll;
 }
 #education .card h3 strong {
+	color: white;
 	font-weight: 600;
 	letter-spacing: 1px;
+}
+.education .card h4 {
+	font-size: 16px;
 }
 
 /* Contact
@@ -872,7 +875,7 @@ img {
 /* Portfolio */	
 	
 #Portfolio {
-  padding: 20px 0 40px;
+	padding: 0 0 100px;
 }
 
 /* Portfolio Filters */	
@@ -1406,7 +1409,7 @@ div.mc-image {
 --------------------------- */
 @media (min-width: 768px) and (max-width: 1200px) {
 
-	.aboutUs-container {
+.aboutUs-container {
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 59%;
@@ -1445,7 +1448,7 @@ margin: 0 0 9px 0;
 padding: 20px 0 20px;
 }
 #aboutUs img{
-margin-bottom:20px;
+margin-bottom:25px;
 }
 #aboutUs h3{
 font-size:26px;
@@ -1542,14 +1545,19 @@ float: left;
 width: 60px;
 height: auto;
 }
-.card {
+.exp-container .card {
 	border: solid 1px black;
-	padding: 35px;
-	height: 38em;
+	padding: 30px;
+	height: 35em;
+	overflow-y: scroll;
 }
-.card h3 strong {
+.exp-container .card h3 strong {
+	color: black;
 	font-weight: 600;
 	letter-spacing: 1px;
+}
+.exp-container li {
+	list-style: none;
 }
 .modal-content h3, a {
 	letter-spacing: 2px;
