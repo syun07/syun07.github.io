@@ -609,14 +609,51 @@ img {
 	font-size: 24px;
 	letter-spacing: 5px;
 }
+.about-us p{
+	padding: 15px 45px 0px 0px;
+}
+.about-us img {
+	margin-bottom: 20px;
+}
+.social_links {
+	padding: 15px 45px 0px 3px;
+	display: flex;
+	list-style: none;
+}
+.social_links li a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	font-size: 35px;
+	color: gray;
+}
+.social_links li img {
+	border-radius: 80px;
+}
+.social_links li a:hover, .social_links li a:focus {
+	text-decoration: none;
+	border-radius: 80px;
+}
+.email a:hover {
+	color: lightblue;
+}
+.phone a:hover {
+	color: lightgreen;
+}
+.linkedin a:hover {
+	color: #0077B5;
+}
+.github a:hover {
+	color: indianred;
+}
+.medium a:hover {
+	color: purple;
+}
 .points{ 
 	margin-bottom: 10px;
 	font-size:14px;
 	padding-left:0px;
-}
-.about-us p{
-	line-height: 35px;
-	padding: 15px 45px 0px 0px;
 }
 .about-us .about-us-list{
 	margin-top: 20px;
@@ -670,10 +707,10 @@ img {
 /* Contact
 ---------------------------------*/
 .page_section.contact {
-	padding: 40px 0;
+	padding: 40px 0px;
 }
 .contact_section {
-	margin: 0 0 60px 0;
+	margin: 0 0 80px 0;
 	align-content: center;
 }
 .contact_section h2 {
@@ -685,53 +722,19 @@ img {
 	color: #fff;
 	text-align: center;
 }
-.social_links {
-	padding:0;
-	display: flex;
-	list-style: none;
-	justify-content: center;
-}
-.social_links li {
-	float: left;
-	margin-right: 4px;
-}
-.social_links li a {
-	display: block;
-	width: 60px;
-	height: 60px;
-	text-align: center;
-	font-size: 35px;
-	color: #fff;
-}
-.social_links li a:hover, .social_links li a:focus {
-	text-decoration: none;
-	border-radius: 80px;
-}
-.email a:hover {
-	color: lightblue;
-}
-.phone a:hover {
-	color: lightgreen;
-}
-.linkedin a:hover {
-	color: #0077B5;
-}
-.github a:hover {
-	color: indianred;
-}
 .form-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .form {
-	margin: 50px 0;
+	margin: 0px 0;
 	min-width: 10em;
 	width: 45%;
 	text-align: center;
 }
 .input-text {
-	padding: 15px 16px;
+	padding: 15px;
 	border: 1px solid #ccc;
 	width: 100%;
 	height: 50px;
@@ -739,7 +742,7 @@ img {
 	border-radius: 4px;
 	font-size: 15px;
 	color: #fff;
-	margin: 0 0 15px 0;
+	margin: 0 0 35px 0;
 	transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -754,12 +757,6 @@ img {
 .input-text.text-area {
 	height: 230px;
 	overflow: scroll;
-}
-.input-text.text-area {
-	vertical-align: text-top;
-}
-.input-text {
-	vertical-align: top;
 }
 .input-btn {    
 	width: 175px;
@@ -1453,11 +1450,6 @@ margin-bottom:25px;
 #aboutUs h3{
 font-size:26px;
 line-height:22px;
-}
-service_block p {
-font-size: 14px; 
-margin: 0px;
-margin-bottom: 20px;
 }
 #filters ul{
 padding-left:0px;
