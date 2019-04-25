@@ -693,6 +693,7 @@ img {
 	padding: 30px 35px;
 	height: 27em;
 	overflow-y: scroll;
+	margin-bottom: 20px;
 }
 #education .card h3 strong {
 	color: white;
@@ -1542,6 +1543,7 @@ height: auto;
 	padding: 30px;
 	height: 35em;
 	overflow-y: scroll;
+	margin-bottom: 20px;
 }
 .exp-container .card h3 strong {
 	color: black;
