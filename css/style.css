@@ -2,22 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400|Lato);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
-/* Reset
----------------------------------*/
 img {
 	max-width: 100%;
 }
 a, a:hover, a:active {
 	outline: 0px !important;
 	text-decoration:none;
-}
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
 }
 .clearfix:before, .clearfix:after {
 	content: '\0020';
@@ -1122,14 +1112,6 @@ img {
 
 
 /* Portfolio Expander */	
-
-
-
-#project_container {
-    display: none;
-    background-color: #FFF;
-}
-
 #project-page-button-fullscreen {
     height: auto;
     z-index: 100;
@@ -1169,10 +1151,6 @@ img {
     display: inline-block;
     margin: 60px 10px 0px 10px;
     font-size: 30px;
-}
-
-#project_data {
-    margin-bottom: 0px;
 }
 
 .project-section-title {
