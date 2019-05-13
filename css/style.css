@@ -24,13 +24,11 @@ a, a:hover, a:active {
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
+	/* float: left; */
 	overflow: hidden;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
-	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
@@ -195,7 +193,6 @@ p {
 	height: auto;
 	position: relative;
 	z-index: 2;
-	margin-left: 20px;
 }
 .res-nav_click {
 	display: none;
@@ -223,10 +220,7 @@ p {
 }
 .navStyle ul li {
 	display: inline-block;
-	margin: 0 15px;
-}
-.navStyle ul li:first-child {
-	padding-left: 35px;
+	margin: 0 2px;
 }
 .navStyle ul li a {
 	display: block;
@@ -248,22 +242,12 @@ p {
 	color: rosybrown;
 	background-color: transparent;
 }
-.navStyle > li.active > a,
+/* .navStyle > li.active > a,
 .navStyle > li.active > a:hover {
 	text-decoration: none;
 	color: #ED5441;
 	background-color: transparent;
-}
-.borderLeft {
-	border-left: 1px solid #DADADA;
-}
-.borderTop {
-	margin-top: 30px;
-	border-top: 1px solid #DADADA;
-}
-.mrgTop {
-	margin-top: 30px;
-}
+} */
 
 /* Top_content
 ---------------------------------*/
@@ -1362,7 +1346,7 @@ div.mc-image {
 /*
    Media Queries
 --------------------------- */
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
 
 	.aboutUs-container {
 		background-repeat: no-repeat;
@@ -1371,7 +1355,7 @@ div.mc-image {
 		background-position-y: 150px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.navStyle {
 		float: right;
 		width: auto; 
@@ -1391,6 +1375,7 @@ div.mc-image {
 	}
 	p{
 		font-size:12px;
+		text-align: center;
 	}
 	.top_cont_outer { 
 		height: 350px;
@@ -1417,6 +1402,7 @@ div.mc-image {
 	#aboutUs h3{
 		font-size:26px;
 		line-height:22px;
+		text-align: center;
 	}
 	#filters ul{
 		padding-left:0px;
@@ -1424,8 +1410,8 @@ div.mc-image {
 	.page_section.team{
 		padding: 40px 0;
 	}
-	.social_links li {
-		float: left; 
+	.social_links {
+		justify-content: center;
 	}
 	.contact_section{
 		margin:0;
