@@ -687,7 +687,7 @@ img {
 }
 .form {
 	margin: 0px 0;
-	min-width: 10em;
+    min-width: 30em;
 	width: 45%;
 	text-align: center;
 }
@@ -1461,6 +1461,12 @@ div.mc-image {
 	.grid figure {
 		min-width: 100%;
 	}
+	.form .input-text {
+		margin-top: 50px;
+	}
+	.exp-container .card {
+		margin: 0 60px;
+	}
 } 
 @media (max-width: 480px){ 
 	.navStyle {
@@ -1480,7 +1486,7 @@ div.mc-image {
 .exp-container .card {
 	border: solid 1px black;
 	padding: 30px;
-	height: 35em;
+	height: 33em;
 	overflow-y: scroll;
 	margin-bottom: 20px;
 }
