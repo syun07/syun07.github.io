@@ -26,9 +26,9 @@ a, a:hover, a:active {
 	position: relative;
 	/* float: left; */
 	overflow: hidden;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	min-width: 50%;
+	/* max-width: 480px;
+	max-height: 360px; */
 	text-align: center;
 	cursor: pointer;
 }
@@ -568,7 +568,7 @@ img {
 	letter-spacing: 5px;
 }
 .about-us p{
-	padding: 15px 45px 0px 0px;
+	padding-top:20px;
 }
 .about-us img {
 	margin-bottom: 20px;
@@ -898,7 +898,7 @@ img {
 #portfolio_wrapper .one-four {
 	margin: 1!important;
 	line-height: 0;
-	width: 60%;
+	/* width: 60%; */
 	padding: 0;
 	position: relative;
 }
@@ -1131,7 +1131,7 @@ img {
     background-color: #FFF;
     width: 100%;
     height: auto;
-    left: 0;
+	left: 0;	
     padding-bottom: 40px;
 }
 
@@ -1457,6 +1457,9 @@ div.mc-image {
 		color: #222; 
 		font-size:12px;
 		padding: 10px 11px;
+	}
+	.grid figure {
+		min-width: 100%;
 	}
 } 
 @media (max-width: 480px){ 
