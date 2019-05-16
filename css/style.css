@@ -98,7 +98,7 @@ figure.effect-oscar figcaption::before {
 	right: 20px;
 	bottom: 20px;
 	left: 20px;
-	border: 1px solid #fff;
+	border: 1px solid black;
 	content: '';
 }
 figure.effect-oscar h2 {
@@ -120,14 +120,14 @@ figure.effect-oscar p {
 figure.effect-oscar:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	color:#fff;
+	color: black;
 }
 figure.effect-oscar:hover figcaption::before,
 figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	color:#fff;
+	color: black;
 	/* +++++++ */
 }
 figure.effect-oscar:hover figcaption {
