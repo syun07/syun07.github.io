@@ -616,16 +616,15 @@ img {
 	margin-bottom: 20px;
 }
 .social_links {
-	padding: 15px 45px 0px 3px;
 	display: flex;
 	list-style: none;
+	justify-content: center;
 }
 .social_links li a {
 	display: block;
 	width: 80px;
-	text-align: center;
 	font-size: 60px;
-	color: gray;
+	color: white;
 }
 .social_links li img {
 	border-radius: 80px;
