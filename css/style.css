@@ -609,9 +609,11 @@ img {
 	font-size: 24px;
 	letter-spacing: 5px;
 }
+/*
 .about-us p{
 	padding: 15px 45px 0px 0px;
 }
+*/
 .about-us img {
 	margin-bottom: 20px;
 }
@@ -684,9 +686,8 @@ img {
 .education-container h2 {
 	color: white;
 }
-.education-container .col-md-6 {
-	padding: 0px 60px;
-}
+
+/*
 #education .card {
 	border: solid 1px white;
 	padding: 30px 35px;
@@ -694,6 +695,7 @@ img {
 	overflow-y: auto;
 	margin-bottom: 20px;
 }
+*/
 #education .card h3 strong {
 	color: white;
 	font-weight: 600;
@@ -1550,12 +1552,18 @@ float: left;
 width: 60px;
 height: auto;
 }
+/*
 .exp-container .card {
 	border: solid 1px black;
 	padding: 30px;
 	height: 35em;
 	overflow-y: scroll;
 	margin-bottom: 20px;
+}
+*/
+
+.exp-container .col-md-6 {
+	padding: 0px 60px;
 }
 .exp-container .card h3 strong {
 	color: black;
